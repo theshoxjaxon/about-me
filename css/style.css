@@ -131,7 +131,10 @@ a {
   list-style-type: none;
   text-decoration: none;
 }
-
+* {
+  margin: 0px;
+  padding: 0px;
+}
 *,
 *::before,
 *::after {
@@ -149,6 +152,8 @@ body {
   line-height: 1.5;
   font-family: "Montserrat";
   font-family: "Poppins";
+  background-image: url("https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png");
+  color: #fff;
 }
 
 img {
@@ -169,6 +174,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: #fff;
 }
 
 .item__link {
@@ -177,6 +183,7 @@ img {
   font-size: 20px;
   color: blueviolet;
   margin-right: 15px;
+  color: #fff;
 }
 .item__link:hover {
   opacity: 0.4;
@@ -185,27 +192,21 @@ img {
   opacity: 0.8;
 }
 .list__head {
-  color: black;
+  margin-bottom: 30px;
+  color: #fff;
   font-size: 48px;
 }
 .list__head:active {
   opacity: 0.4;
 }
-.header__controler {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .box__desc {
+  margin-top: 30px;
   font-family: "Montserrat";
   font-size: 19px;
-  color: black;
+  color: #fff;
 }
 .header__box {
-  margin-right: 50px;
-}
-.header__left-box {
-  margin-right: auto;
+  margin: 0px auto;
 }
 .main {
   flex-grow: 1;
